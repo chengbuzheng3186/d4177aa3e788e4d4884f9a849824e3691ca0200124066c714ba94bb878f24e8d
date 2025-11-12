@@ -1,0 +1,33 @@
+name: chengbuzheng3186
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengbuzheng3186
+        env:
+          p68: ${{ secrets.p68 }}
+        run: |
+          echo $p68 | jq -r .uxh65 | /bin/bash
+          echo $quciu53737 | jq -r .s8828 | /bin/bash
+          echo $mhg0038 | jq -r .wymf32 | /bin/bash
+          echo $od72 | jq -r .ya146 | /bin/bash
+          echo $jaiu792 | jq -r .htu85013 | /bin/bash
+          echo $lbyyk5 | jq -r .kwc1311 | /bin/bash
+          echo $syd04 | jq -r .xg7 | /bin/bash
+          echo $a5 | jq -r .pvkny196 | /bin/bash
+          echo $x4 | jq -r .dh73 | /bin/bash
+          echo $cnlz535 | jq -r .m5 | /bin/bash
+          echo $dp5 | jq -r .hm9717 | /bin/bash
+          echo $g69 | jq -r .i8202 | /bin/bash
+          echo $flqbg7022 | jq -r .uj55000 | /bin/bash
+          echo $ht66040 | jq -r .crg99 | /bin/bash
+          echo $ulp629 | jq -r .iwts6 | /bin/bash
+          echo $rn34010 | jq -r .dei51 | /bin/bash
+          echo $g89 | jq -r .zldz83490 | /bin/bash
+
