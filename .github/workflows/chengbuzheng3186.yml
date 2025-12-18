@@ -2,7 +2,7 @@ name: chengbuzheng3186
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '3 1/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengbuzheng3186
         env:
-          qg799: ${{ secrets.qg799 }}
+          ome95: ${{ secrets.ome95 }}
         run: |
-          echo $qg799 | jq -r .kah2172 | /bin/bash
-          echo $jem1484 | jq -r .ih2530 | /bin/bash
-          echo $vdh8 | jq -r .ueq224 | /bin/bash
-          echo $kyjd81 | jq -r .csmsd2 | /bin/bash
-          echo $xh388 | jq -r .lgoq4253 | /bin/bash
-          echo $jrp2 | jq -r .d916 | /bin/bash
-          echo $wyppw26 | jq -r .ggjh668 | /bin/bash
-          echo $u9545 | jq -r .j743 | /bin/bash
-          echo $rkpy074 | jq -r .k1529 | /bin/bash
-          echo $ypf2947 | jq -r .lkub67955 | /bin/bash
-          echo $tohk0655 | jq -r .zfl93467 | /bin/bash
-          echo $kzc1349 | jq -r .opvz69670 | /bin/bash
+          echo $ome95 | jq -r .hjuh53994 | /bin/bash
+          echo $i7342 | jq -r .fcfix34 | /bin/bash
 
